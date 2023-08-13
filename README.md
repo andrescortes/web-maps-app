@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# MapsApp
+Don't use directly in AngularCLI, the environments var are created based on .env file
+
+## Steps
+1. Clone the .env.template file and rename to .env
+2. Complete the vars according to environment used
+3. Create Angular Envs (optional)
+```
+npm run envs
+```
+4. For development execute:
+```
+npm run start
+```
+5. For production execute:
+```
+npm run build
+```
