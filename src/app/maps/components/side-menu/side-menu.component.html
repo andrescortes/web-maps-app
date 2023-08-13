@@ -1,1 +1,6 @@
-<p>side-menu works!</p>
+<ul class="list-group">
+  <li *ngFor="let menuItem of menuItems" [routerLink]="[menuItem.route]" routerLinkActive="active"
+    class="list-group-item">
+    {{menuItem.name}}
+  </li>
+</ul>
