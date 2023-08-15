@@ -11,7 +11,7 @@ import { PropertiesPageComponent } from './pages/properties-page/properties-page
 import { ZoomRangePageComponent } from './pages/zoom-range-page/zoom-range-page.component';
 
 import * as mapboxgl from 'mapbox-gl';
-(mapboxgl as any).accessToken = 'pk.eyJ1IjoicmlweHkiLCJhIjoiY2xsOHBrbTN2MHk3aDN0bWd0djdhMmc4biJ9.rHiltVLpmWmaBd3qWGzWbQ';
+(mapboxgl as any).accessToken = 'test-api-key';
 
 @NgModule({
   declarations: [
