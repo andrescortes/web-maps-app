@@ -9,7 +9,6 @@ export class FullScreenPageComponent implements AfterViewInit {
   @ViewChild('map') divMap?: ElementRef;
 
   ngAfterViewInit(): void {
-    console.log(this.divMap);
     if (!this.divMap) {
       throw new Error('The element #map is not defined');
     }

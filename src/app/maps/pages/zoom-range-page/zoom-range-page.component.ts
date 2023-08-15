@@ -50,11 +50,9 @@ export class ZoomRangePageComponent implements AfterViewInit, OnDestroy {
 
     this.map.on('move', () => {
       this.currentLngLat = this.map!.getCenter();
-      console.log({ lngLat: this.currentLngLat });
       const { lng, lat } = this.currentLngLat;
       this.lng = lng;
       this.lat = lat;
-      console.log({ lng, lat });
     })
   }
 
