@@ -6,7 +6,7 @@ interface House {
 }
 @Component({
   templateUrl: './properties-page.component.html',
-  styleUrls: ['./properties-page.component.css']
+  styleUrls: ['./properties-page.component.css'],
 })
 export class PropertiesPageComponent {
 
